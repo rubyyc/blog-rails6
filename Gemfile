@@ -34,7 +34,8 @@ group :development, :test do
 end
 gem 'capistrano', '~> 3.7', '>= 3.7.1'
 gem 'capistrano-rails', '~> 1.2'
-gem 'capistrano-passenger', '~> 0.2.0'
+gem 'capistrano-passenger', '>= 0.2.1'
+
 gem 'listen', '~> 3.2'
 
 group :development do
