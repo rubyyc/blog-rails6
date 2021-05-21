@@ -6,6 +6,7 @@ ruby '2.6.7'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
 
 gem "redcarpet"
+gem 'pygments.rb'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
