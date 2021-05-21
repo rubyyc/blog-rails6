@@ -5,7 +5,7 @@ lock "~> 3.11.2"
 # set :repo_url, "git@example.com:me/my_repo.git"
 
 set :application, "blog-rails6"
-set :repo_url, "github.com/rubyyc/blog-rails6.git"
+set :repo_url, "https://github.com/rubyyc/blog-rails6.git"
 
 set :deploy_to, '/home/deploy/blog-rails6'
 
