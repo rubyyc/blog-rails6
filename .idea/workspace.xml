@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2873bfc1-ed5d-4fa1-8adb-63f14dabf275" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,11 +156,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621556622609</updated>
-      <workItem from="1621556625964" duration="2898000" />
+      <workItem from="1621556625964" duration="5160000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/blog_rails6@Development__blog_rails6.rcov" NAME="Development: blog-rails6 Coverage Results" MODIFIED="1621577769030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="blog-rails6" />
   </component>
 </project>
