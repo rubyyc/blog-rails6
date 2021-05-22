@@ -46,7 +46,7 @@
  * Footer
  */
 .blog-footer {
-  padding: 2.5rem 0;
+  padding: 1rem 0;
   color: #727272;
   text-align: center;
   background-color: #f9f9f9;
@@ -54,4 +54,33 @@
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+a{
+  color: black !important;
+  text-decoration: none !important;
+}
+
+/*
+  form 通用样式
+*/
+
+.form-wrap {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  .checkbox {
+    font-weight: 400;
+  }
+  .form-floating:focus-within {
+    z-index: 2;
+  }
+  input {
+    margin-top: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
 }

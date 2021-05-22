@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :users
+  get 'login' => 'users#login'
   namespace :admin do
     get 'home/index'
   end
