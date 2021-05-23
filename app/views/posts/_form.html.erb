@@ -1,4 +1,4 @@
-<div class="post-form mt-5 text-center">
+<main class="form-wrap text-center">
   <%= form_with(model: post, local: true) do |form| %>
     <% if post.errors.any? %>
       <div id="error_explanation">
@@ -11,19 +11,12 @@
       </div>
     <% end %>
 
-    <div class="field">
-      <%= form.label :title %>
-      <%= form.text_field :title %>
-    </div>
+    <%= form.text_field :title, class: "form-control", placeholder: "Title" %>
 
-    <div class="field">
-      <%= form.label :content %>
-      <%= form.text_area :content %>
-    </div>
+    <%= form.text_area :content, class: "form-control", rows: 800, placeholder: "Content"%>
 
-    <div class="actions">
-      <%= form.submit %>
-    </div>
+    <%= form.submit "Create Post", class: "w-100 btn btn-l bg-primary"%>
   <% end %>
+</main>
 
-</div>
+

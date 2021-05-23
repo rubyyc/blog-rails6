@@ -1,20 +1,19 @@
-
 <main class="form-wrap text-center">
-  <%= form_with(model: @user, local: true) do |f| %>
+  <%= form_with(model: @user, local: true) do |form| %>
     <img class="mb-4" src="https://v5.bootcss.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating">
-      <%= f.label :username %>
-      <%= f.text_field :username, class: "form-control" %>
+      <%= form.label :username %>
+      <%= form.text_field :username, class: "form-control" %>
     </div>
 
     <div class="form-floating">
-      <%= f.label :password %>
-      <%= f.password_field :password, class: "form-control" %>
+      <%= form.label :password %>
+      <%= form.password_field :password, class: "form-control" %>
     </div>
 
-    <%= f.submit "Sign in", class: "w-100 btn btn-l bg-dark"%>
+    <%= form.submit "Sign in", class: "w-100 btn btn-l bg-primary"%>
   <% end %>
 </main>
 
