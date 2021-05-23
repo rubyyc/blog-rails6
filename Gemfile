@@ -4,10 +4,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
-
+# gem "rails", github: "rails/rails"
+# gem "rails"
+# gem 'rails', '~> 6.1', '>= 6.1.3.2'
 gem "redcarpet"
 gem 'pygments.rb'
-
+# gem "mini_magick"
+gem 'image_processing', '~> 1.2'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
