@@ -7,7 +7,8 @@
     <list default="true" id="2873bfc1-ed5d-4fa1-8adb-63f14dabf275" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/common/_carousel.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/common/_carousel.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/common/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/common/_navbar.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621556622609</updated>
       <workItem from="1621556625964" duration="13795000" />
-      <workItem from="1621601122815" duration="25568000" />
+      <workItem from="1621601122815" duration="27779000" />
     </task>
     <servers />
   </component>

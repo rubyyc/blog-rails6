@@ -55,11 +55,6 @@
   margin-bottom: 0;
 }
 
-a{
-  color: black !important;
-  text-decoration: none !important;
-}
-
 /*
   form 通用样式
 */
@@ -88,6 +83,16 @@ main {
 }
 
 body {
+  a{
+    color: black;
+    text-decoration: none !important;
+  }
+
+  button {
+    a {
+      color: #fff;
+    }
+  }
   h2 {
     font-size: 1.65rem;
     padding-bottom: .3rem;
