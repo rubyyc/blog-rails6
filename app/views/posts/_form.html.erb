@@ -13,7 +13,9 @@
 
     <%= form.text_field :title, class: "form-control", placeholder: "Title" %>
 
-    <%= form.text_area :content, class: "form-control", rows: 800, placeholder: "Content"%>
+    <%#= form.text_area :content, class: "form-control", rows: 800, placeholder: "Content"%>
+
+    <%= form.rich_text_area :content,  rows: 80%>
 
     <%= form.submit "Create Post", class: "w-100 btn btn-l bg-primary"%>
   <% end %>
