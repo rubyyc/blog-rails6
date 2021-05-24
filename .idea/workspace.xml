@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2873bfc1-ed5d-4fa1-8adb-63f14dabf275" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog-rails6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog-rails6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +180,7 @@
       <workItem from="1621601122815" duration="36478000" />
       <workItem from="1621780565888" duration="195000" />
       <workItem from="1621815449674" duration="370000" />
-      <workItem from="1621815954190" duration="2351000" />
+      <workItem from="1621815954190" duration="3440000" />
     </task>
     <servers />
   </component>
