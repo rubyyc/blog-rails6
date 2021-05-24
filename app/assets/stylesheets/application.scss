@@ -14,7 +14,7 @@
  *= require_self
  */
 @import "bootstrap/dist/css/bootstrap";
-@import "./actiontext.scss";
+//@import "./actiontext.scss";
 .form-control-dark {
   color: #fff;
   background-color: var(--bs-dark);
@@ -53,31 +53,6 @@
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
-}
-
-/*
-  form 通用样式
-*/
-
-.form-wrap {
-  width: 100%;
-  padding: 15px;
-  margin: auto;
-  flex-direction: column;
-  justify-content: center;
-  .checkbox {
-    font-weight: 400;
-  }
-
-  input, textarea {
-    margin-top: 20px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-}
-
-main {
-  height: 100% !important;
 }
 
 body {

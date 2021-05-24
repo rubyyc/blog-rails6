@@ -1,24 +1,22 @@
-<main class="form-wrap text-center">
-  <%= form_with(model: post, local: true) do |form| %>
-    <% if post.errors.any? %>
-      <div id="error_explanation">
-        <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
-        <ul>
-          <% post.errors.full_messages.each do |message| %>
-            <li><%= message %></li>
-          <% end %>
-        </ul>
-      </div>
-    <% end %>
-
-    <%= form.text_field :title, class: "form-control", placeholder: "Title" %>
-
-    <%#= form.text_area :content, class: "form-control", rows: 800, placeholder: "Content"%>
-
-    <%= form.rich_text_area :content,  rows: 80%>
-
-    <%= form.submit "Create Post", class: "w-100 btn btn-l bg-primary"%>
+<%= form_with(model: post, local: true) do |form| %>
+  <% if post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+      <ul>
+        <% post.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
   <% end %>
-</main>
+
+  <%= form.text_field :title, class: "form-control", placeholder: "Title" %>
+
+  <%= form.text_area :content, class: "form-control mt-5", rows: 8, placeholder: "Content"%>
+
+  <%#= form.rich_text_area :body, rows: 80 %>
+
+  <%= form.submit "Create Post", class: "w-100 btn btn-l bg-primary mt-5" %>
+<% end %>
 
 

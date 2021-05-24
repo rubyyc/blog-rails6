@@ -6,10 +6,10 @@ module ApplicationHelper
   end
 
   def markdown(text)
-    if text.class == ActionText::RichText
-      puts "--------"
-      text
-    else
+    # if text.class == ActionText::RichText
+    #   puts "--------"
+    #   text
+    # else
       renderer = HTMLwithPygments.new(hard_wrap: true, filter_html: true)
       options = {
         autolink: true,
@@ -20,7 +20,6 @@ module ApplicationHelper
         superscript: true
       }
       Redcarpet::Markdown.new(renderer, options).render(text).html_safe
-    end
-
+    # end
   end
 end

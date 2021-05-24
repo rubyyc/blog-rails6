@@ -1,13 +1,13 @@
-<main class="form-wrap text-center">
+<div class="text-center">
   <%= form_with(model: @user, local: true) do |form| %>
-    <img class="mb-4" src="https://v5.bootcss.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+    <img class="mb-4 mt-5" src="https://v5.bootcss.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <%= form.text_field :username, class: "form-control", placeholder: "username" %>
-    <%= form.password_field :password, class: "form-control", placeholder: "password" %>
+    <%= form.password_field :password, class: "form-control mt-3", placeholder: "password" %>
 
-    <%= form.submit "Sign in", class: "w-50 btn btn-l bg-primary"%>
+    <%= form.submit "Sign in", class: "w-50 btn btn-l bg-primary mt-4"%>
   <% end %>
-</main>
+</div>
 
 

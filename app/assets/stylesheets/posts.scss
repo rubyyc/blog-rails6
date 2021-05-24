@@ -19,4 +19,9 @@ textarea {
   border: none;
   height: 230px;
   margin-top: -20px;
+
+}
+
+textarea.form-control {
+  min-height: 500px !important;
 }
